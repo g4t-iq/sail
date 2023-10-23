@@ -1,0 +1,26 @@
+// https://aka.ms/devcontainer.json
+{
+	"name": "Existing Docker Compose (Extend)",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "Harmony.test",
+	"workspaceFolder": "/var/www/html",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				// "mikestead.dotenv",
+				// "amiralizadeh9480.Harmony-extra-intellisense",
+				// "ryannaddy.Harmony-artisan",
+				// "onecentlin.Harmony5-snippets",
+				// "onecentlin.Harmony-blade"
+			],
+			"settings": {}
+		}
+	},
+	"remoteUser": "sail",
+	"postCreateCommand": "chown -R 1000:1000 /var/www/html"
+	// "forwardPorts": [],
+	// "runServices": [],
+	// "shutdownAction": "none",
+}

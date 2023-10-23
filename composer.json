@@ -1,16 +1,16 @@
 {
-    "name": "Harmony/sail",
-    "description": "Docker files for running a basic Harmony application.",
-    "keywords": ["Harmony", "docker"],
+    "name": "harmony-framework/sail",
+    "description": "Docker files for running a basic harmony application.",
+    "keywords": ["harmony", "docker"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/Harmony/sail/issues",
-        "source": "https://github.com/Harmony/sail"
+        "issues": "https://github.com/harmony/sail/issues",
+        "source": "https://github.com/harmony/sail"
     },
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@Harmony.com"
+            "name": "Hussein Alaa",
+            "email": "hussein@harmony-framework.com"
         }
     ],
     "require": {
@@ -25,16 +25,16 @@
     ],
     "autoload": {
         "psr-4": {
-            "Harmony\\Sail\\": "src/"
+            "harmony\\Sail\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
         },
-        "Harmony": {
+        "harmony": {
             "providers": [
-                "Harmony\\Sail\\SailServiceProvider"
+                "harmony\\Sail\\SailServiceProvider"
             ]
         }
     },

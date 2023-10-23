@@ -15,9 +15,9 @@
     ],
     "require": {
         "php": "^8.0",
-        "G4T/console": "^8.0|^9.0|^10.0",
-        "G4T/contracts": "^8.0|^9.0|^10.0",
-        "G4T/support": "^8.0|^9.0|^10.0",
+        "g4t/console": "^8.0|^9.0|^10.0",
+        "g4t/contracts": "^8.0|^9.0|^10.0",
+        "g4t/support": "^8.0|^9.0|^10.0",
         "symfony/yaml": "^6.0"
     },
     "bin": [
